@@ -10,6 +10,9 @@
 		38ECA7CED648939243F746F6 /* Pods_MvppocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AE528EE4A25C4653453E79 /* Pods_MvppocTests.framework */; };
 		636055A9F57248BFF00D8F82 /* Pods_Mvppoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701FF15654A0D671C76F5394 /* Pods_Mvppoc.framework */; };
 		8F351B0B74E4C05A61482672 /* Pods_MvppocUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756515C345A743510668F8F4 /* Pods_MvppocUITests.framework */; };
+		E8A57A6C1EBCA8A700BB94C4 /* IssueTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A57A6B1EBCA8A700BB94C4 /* IssueTrackerModel.swift */; };
+		E8A57A6E1EBCA96F00BB94C4 /* Issues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A57A6D1EBCA96F00BB94C4 /* Issues.swift */; };
+		E8A57A701EBCA9FA00BB94C4 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A57A6F1EBCA9FA00BB94C4 /* Repository.swift */; };
 		E8A729D61EB8664C007D1B23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A729D51EB8664C007D1B23 /* AppDelegate.swift */; };
 		E8A729D81EB8664C007D1B23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A729D71EB8664C007D1B23 /* ViewController.swift */; };
 		E8A729DB1EB8664C007D1B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A729D91EB8664C007D1B23 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 		E8A729E01EB8664C007D1B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A729DE1EB8664C007D1B23 /* LaunchScreen.storyboard */; };
 		E8A729EB1EB8664C007D1B23 /* MvppocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A729EA1EB8664C007D1B23 /* MvppocTests.swift */; };
 		E8A729F61EB8664C007D1B23 /* MvppocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A729F51EB8664C007D1B23 /* MvppocUITests.swift */; };
+		E8B4863C1EB9B97C000F5BEE /* BallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B4863B1EB9B97C000F5BEE /* BallViewController.swift */; };
+		E8B4863E1EB9E38B000F5BEE /* BallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B4863D1EB9E38B000F5BEE /* BallViewModel.swift */; };
+		E8D218621EBB3671007A6C1F /* GithubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D218611EBB3671007A6C1F /* GithubEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,9 @@
 		ADE62F63E4A0731F3766DDBA /* Pods-MvppocUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvppocUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MvppocUITests/Pods-MvppocUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AE528EE4A25C4653453E79 /* Pods_MvppocTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MvppocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7CE1E432ED0668D2B171DE /* Pods-MvppocUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MvppocUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MvppocUITests/Pods-MvppocUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8A57A6B1EBCA8A700BB94C4 /* IssueTrackerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTrackerModel.swift; sourceTree = "<group>"; };
+		E8A57A6D1EBCA96F00BB94C4 /* Issues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issues.swift; sourceTree = "<group>"; };
+		E8A57A6F1EBCA9FA00BB94C4 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		E8A729D21EB8664C007D1B23 /* Mvppoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mvppoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A729D51EB8664C007D1B23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A729D71EB8664C007D1B23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +68,9 @@
 		E8A729F11EB8664C007D1B23 /* MvppocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvppocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A729F51EB8664C007D1B23 /* MvppocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvppocUITests.swift; sourceTree = "<group>"; };
 		E8A729F71EB8664C007D1B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B4863B1EB9B97C000F5BEE /* BallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallViewController.swift; sourceTree = "<group>"; };
+		E8B4863D1EB9E38B000F5BEE /* BallViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallViewModel.swift; sourceTree = "<group>"; };
+		E8D218611EBB3671007A6C1F /* GithubEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +124,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E89D275D1EB88BF600B39AF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8B4863D1EB9E38B000F5BEE /* BallViewModel.swift */,
+				E8A57A6B1EBCA8A700BB94C4 /* IssueTrackerModel.swift */,
+				E8A57A6D1EBCA96F00BB94C4 /* Issues.swift */,
+				E8A57A6F1EBCA9FA00BB94C4 /* Repository.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E8A729C91EB8664C007D1B23 = {
 			isa = PBXGroup;
 			children = (
@@ -137,12 +160,15 @@
 		E8A729D41EB8664C007D1B23 /* Mvppoc */ = {
 			isa = PBXGroup;
 			children = (
+				E8D218601EBB363D007A6C1F /* Helper */,
+				E89D275D1EB88BF600B39AF5 /* Model */,
 				E8A729D51EB8664C007D1B23 /* AppDelegate.swift */,
 				E8A729D71EB8664C007D1B23 /* ViewController.swift */,
 				E8A729D91EB8664C007D1B23 /* Main.storyboard */,
 				E8A729DC1EB8664C007D1B23 /* Assets.xcassets */,
 				E8A729DE1EB8664C007D1B23 /* LaunchScreen.storyboard */,
 				E8A729E11EB8664C007D1B23 /* Info.plist */,
+				E8B4863B1EB9B97C000F5BEE /* BallViewController.swift */,
 			);
 			path = Mvppoc;
 			sourceTree = "<group>";
@@ -163,6 +189,14 @@
 				E8A729F71EB8664C007D1B23 /* Info.plist */,
 			);
 			path = MvppocUITests;
+			sourceTree = "<group>";
+		};
+		E8D218601EBB363D007A6C1F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E8D218611EBB3671007A6C1F /* GithubEndpoint.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,7 +480,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8B4863C1EB9B97C000F5BEE /* BallViewController.swift in Sources */,
+				E8B4863E1EB9E38B000F5BEE /* BallViewModel.swift in Sources */,
 				E8A729D81EB8664C007D1B23 /* ViewController.swift in Sources */,
+				E8A57A701EBCA9FA00BB94C4 /* Repository.swift in Sources */,
+				E8A57A6E1EBCA96F00BB94C4 /* Issues.swift in Sources */,
+				E8D218621EBB3671007A6C1F /* GithubEndpoint.swift in Sources */,
+				E8A57A6C1EBCA8A700BB94C4 /* IssueTrackerModel.swift in Sources */,
 				E8A729D61EB8664C007D1B23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +738,7 @@
 				E8A729FC1EB8664C007D1B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8A729FD1EB8664C007D1B23 /* Build configuration list for PBXNativeTarget "MvppocTests" */ = {
 			isa = XCConfigurationList;
@@ -706,6 +747,7 @@
 				E8A729FF1EB8664C007D1B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8A72A001EB8664C007D1B23 /* Build configuration list for PBXNativeTarget "MvppocUITests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +756,7 @@
 				E8A72A021EB8664C007D1B23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
